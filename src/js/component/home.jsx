@@ -18,7 +18,9 @@ const Home = () => {
 				Made by{" "}
 				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
 				love!
+
 			</p>
+			<i className="fas fa-clock"></i>
 		</div>
 	);
 };

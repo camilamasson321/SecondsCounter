@@ -4,9 +4,22 @@ import ReactDOM from "react-dom";
 
 // include your styles into the webpack bundle
 import "../styles/index.css";
+import SecondsCounter from "/workspace/react-hello/src/js/component/SecondsCounter.jsx";
 
 //import your own components
-import Home from "./component/home.jsx";
+
+
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+let seconds=0
+
+let onesecond=(seconds/1)
+let tensecond=(seconds/10)
+let hundredsecond=(seconds/100)
+let thousandsecond=(seconds/1000)
+
+
+
+
+ReactDOM.render( <SecondsCounter onesecond={onesecond} tensecond={tensecond} hundredsecond={hundredsecond} thousandsecond={thousandsecond}/>, document.querySelector("#app") )
+

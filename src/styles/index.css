@@ -10,3 +10,17 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.main{
+    background-color: black;
+}
+.card{
+    width: 15rem;
+    height:20rem;
+    font-size: 200px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+    border-color: rgb(179, 182, 184);
+}
+.clock {
+padding-top:3%;
+}
